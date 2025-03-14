@@ -93,9 +93,9 @@ export default function Home() {
           </button>
         </TextReveal>
       </PageSection>
-      <PageSection>
+      <PageSection id="teste">
         <TextReveal>
-          <div className="flex flex-col gap-2" id="teste">
+          <div className="flex flex-col gap-2">
             <h2 className="text-5xl font-[Montserrat]">Fazem exatamente</h2>
 
             <NumberTicker
