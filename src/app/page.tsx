@@ -6,11 +6,13 @@ import ScrollDownIndicator from "@/components/ScrollDownIndicator";
 import TextReveal from "@/components/TextReveal";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function Home() {
   const [diasJuntos, setDiasJuntos] = useState(0);
   const [horasJuntos, setHorasJuntos] = useState(0);
+  const [audioPlayed, setAudioPlayed] = useState(false);
+  const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
     //pega os dias juntos desde 15 de março de 2023
@@ -23,10 +25,30 @@ export default function Home() {
     //pega as horas juntos desde 15 de março de 2023
     const horas = Math.floor(diferenca / (1000 * 60 * 60));
     setHorasJuntos(horas);
-  }, []);
+
+    const handleScroll = () => {
+      if (audioRef.current && !audioPlayed) {
+        audioRef.current
+          .play()
+          .then(() => {
+            setAudioPlayed(true);
+          })
+          .catch((error) => {
+            console.error("Failed to play audio:", error);
+          });
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [audioPlayed]);
 
   return (
     <div className="h-screen overflow-y-scroll snap-y snap-mandatory px-12 ">
+      <audio ref={audioRef} src="/music/allmylove.mp3" />
       <PageSection>
         <TextAnimate
           animation="blurInUp"
@@ -47,7 +69,33 @@ export default function Home() {
       </PageSection>
       <PageSection>
         <TextReveal>
-          <div className="flex flex-col gap-2">
+          <h2 className="text-5xl font-[Montserrat] text-center">
+            Você está pronta?
+          </h2>
+          <button
+            onClick={() => {
+              if (audioRef.current) {
+                audioRef.current.play();
+                audioRef.current.volume = 0.1;
+                setAudioPlayed(true);
+              }
+
+              //scroll to next section
+              document
+                .getElementById("teste")
+                ?.scrollIntoView({ behavior: "smooth" });
+
+              console.log(window.innerHeight);
+            }}
+            className="w-full px-4 py-2 mt-12 text-2xl font-bold text-white bg-[#f41870] rounded-lg"
+          >
+            Sim
+          </button>
+        </TextReveal>
+      </PageSection>
+      <PageSection>
+        <TextReveal>
+          <div className="flex flex-col gap-2" id="teste">
             <h2 className="text-5xl font-[Montserrat]">Fazem exatamente</h2>
 
             <NumberTicker
@@ -123,8 +171,6 @@ export default function Home() {
               width={500}
               height={500}
               alt="Segunda foto juntos"
-              loading="eager"
-              priority={true}
               className="rounded-lg max-h-[600px] object-cover"
             />
 
@@ -163,7 +209,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/ligacoes.png"
+              src="/images/ligacoes.PNG"
               width={500}
               height={500}
               alt="ligacoes"
@@ -182,7 +228,7 @@ export default function Home() {
             <h2 className="text-2xl font-[Montserrat]">Altas horas mesmo 😂</h2>
 
             <Image
-              src="/images/ligacoes2.png"
+              src="/images/ligacoes2.PNG"
               width={500}
               height={500}
               alt="ligacoes"
@@ -203,7 +249,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/filho1.png"
+              src="/images/filho1.PNG"
               width={500}
               height={500}
               alt="filho1"
