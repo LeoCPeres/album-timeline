@@ -123,6 +123,8 @@ export default function Home() {
               width={500}
               height={500}
               alt="Segunda foto juntos"
+              loading="eager"
+              priority={true}
               className="rounded-lg max-h-[600px] object-cover"
             />
 
