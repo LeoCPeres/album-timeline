@@ -119,7 +119,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/segunda-foto.jpeg"
+              src="/images/segunda-foto.JPEG"
               width={500}
               height={500}
               alt="Segunda foto juntos"
@@ -142,7 +142,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/terceira-foto.jpeg"
+              src="/images/terceira-foto.JPEG"
               width={500}
               height={500}
               alt="Terceira foto juntos"
@@ -224,7 +224,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/primeira-cheirada.jpeg"
+              src="/images/primeira-cheirada.JPEG"
               width={500}
               height={500}
               alt="filho1"
@@ -245,7 +245,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/manuella.jpeg"
+              src="/images/manuella.JPEG"
               width={500}
               height={500}
               alt="filho1"
@@ -266,7 +266,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/15marco.jpeg"
+              src="/images/15marco.JPEG"
               width={500}
               height={500}
               alt="filho1"
@@ -331,7 +331,7 @@ export default function Home() {
 
             <div>
               <Image
-                src="/images/foto-horizontal1.jpeg"
+                src="/images/foto-horizontal1.JPEG"
                 alt="filho1"
                 width={500}
                 height={500}
@@ -343,7 +343,7 @@ export default function Home() {
             </div>
             <div>
               <Image
-                src="/images/foto-horizontal2.jpeg"
+                src="/images/foto-horizontal2.JPEG"
                 alt="filho1"
                 width={500}
                 height={500}
@@ -355,7 +355,7 @@ export default function Home() {
             </div>
             <div>
               <Image
-                src="/images/foto-horizontal3.jpeg"
+                src="/images/foto-horizontal3.JPEG"
                 alt="filho1"
                 width={500}
                 height={500}
@@ -376,7 +376,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/fotoburger.jpeg"
+              src="/images/fotoburger.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -396,7 +396,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/maosdadas.jpeg"
+              src="/images/maosdadas.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -416,7 +416,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/anivermanu.jpeg"
+              src="/images/anivermanu.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -436,7 +436,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/fotoespelhoquarto.jpeg"
+              src="/images/fotoespelhoquarto.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -456,7 +456,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/emcasacomamora.jpeg"
+              src="/images/emcasacomamora.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -476,7 +476,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/dormindo.jpeg"
+              src="/images/dormindo.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -496,7 +496,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/fotocamisetanamorados.jpeg"
+              src="/images/fotocamisetanamorados.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -516,7 +516,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/festajunina.jpeg"
+              src="/images/festajunina.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -536,7 +536,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/festadoida.jpeg"
+              src="/images/festadoida.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -556,7 +556,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/primeiroshow.jpeg"
+              src="/images/primeiroshow.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -576,7 +576,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/nossoamorpelojump.jpeg"
+              src="/images/nossoamorpelojump.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -596,7 +596,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/pesjuntos.jpeg"
+              src="/images/pesjuntos.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -616,7 +616,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/fotomaoamor.jpeg"
+              src="/images/fotomaoamor.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -636,7 +636,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/anivertati.jpeg"
+              src="/images/anivertati.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -656,7 +656,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/maisumshow.jpeg"
+              src="/images/maisumshow.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -676,7 +676,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/aniversariosurpresa.jpeg"
+              src="/images/aniversariosurpresa.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -697,7 +697,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/halloween.jpeg"
+              src="/images/halloween.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -717,7 +717,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/maisumshow2.jpeg"
+              src="/images/maisumshow2.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -737,7 +737,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/fotocompedrinho.jpeg"
+              src="/images/fotocompedrinho.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -757,7 +757,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/formatura.jpeg"
+              src="/images/formatura.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -777,7 +777,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/anonovo.jpeg"
+              src="/images/anonovo.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -797,7 +797,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/festadauva.jpeg"
+              src="/images/festadauva.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -817,7 +817,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/luanbrincar.jpeg"
+              src="/images/luanbrincar.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -837,7 +837,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/aniversariomaria.jpeg"
+              src="/images/aniversariomaria.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -857,7 +857,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/jantarnopezao.jpeg"
+              src="/images/jantarnopezao.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -877,7 +877,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/umanodenamoro.jpeg"
+              src="/images/umanodenamoro.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -897,7 +897,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/comemorandoumano.jpeg"
+              src="/images/comemorandoumano.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -917,7 +917,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/unimed.jpeg"
+              src="/images/unimed.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -937,7 +937,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/anivermanu2.jpeg"
+              src="/images/anivermanu2.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -957,7 +957,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/diadosnamorados.jpeg"
+              src="/images/diadosnamorados.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -977,7 +977,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/diadosnamoradosverdadeiro.jpeg"
+              src="/images/diadosnamoradosverdadeiro.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -997,7 +997,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/jeronimocomluan.jpeg"
+              src="/images/jeronimocomluan.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -1017,7 +1017,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/aniversarioeriko.jpeg"
+              src="/images/aniversarioeriko.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -1037,7 +1037,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/passeioshoppingcomcirco.jpeg"
+              src="/images/passeioshoppingcomcirco.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -1057,7 +1057,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/luangamer.jpeg"
+              src="/images/luangamer.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -1077,7 +1077,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/primeiravezacademia.jpeg"
+              src="/images/primeiravezacademia.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -1097,7 +1097,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/jumpdenovo.jpeg"
+              src="/images/jumpdenovo.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -1117,7 +1117,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/jeronimo.jpeg"
+              src="/images/jeronimo.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -1137,7 +1137,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/casamentonatalia.jpeg"
+              src="/images/casamentonatalia.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -1157,7 +1157,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/tirouodente.jpeg"
+              src="/images/tirouodente.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -1177,7 +1177,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/pezinhos.jpeg"
+              src="/images/pezinhos.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -1197,7 +1197,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/primeironatal.jpeg"
+              src="/images/primeironatal.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -1217,7 +1217,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/primeiraviagem.jpeg"
+              src="/images/primeiraviagem.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -1237,7 +1237,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/diversao.jpeg"
+              src="/images/diversao.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -1257,7 +1257,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/amigochaves.jpeg"
+              src="/images/amigochaves.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -1277,7 +1277,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/aniversariomaria2.jpeg"
+              src="/images/aniversariomaria2.JPEG"
               alt="filho1"
               width={500}
               height={500}
@@ -1297,7 +1297,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/images/juntos.jpeg"
+              src="/images/juntos.JPEG"
               alt="filho1"
               width={500}
               height={500}
